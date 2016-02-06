@@ -1,0 +1,66 @@
+<html>
+<title>Register !</title>
+<body style =' font-family: helvetica, sans-serif; background-color:rgb(40,40,40);    '>
+		<div style= ' border-radius: 10px; width : 80%; padding: 30px 30px ; border: 10px groove orange; margin: 0 auto; text-align:center; '>
+				<h1 style='font-family:helvetica, sans-serif, sans-serif; font-style:italic; color:orange;'>Webchat App</h1>
+			</div>
+			<br/>
+			<div style = ' width : 80% ; padding : 30px 30px  ; border: 2px solid ; margin: 0 auto; text-align:center; color:white; border-radius: 7px; '>
+				<h2>Register to Webchat's chatting platform !</h2>
+				<br/>
+				<form action='register' method='post'>
+					<table style='width:40%; margin: auto; align:center; color:white;	'>
+						<tr>
+							<td>
+								<b style='font-family:Verdana;'> Name : </b>
+							</td>
+							<td>
+								<input type='text' name='name' placeholder='name' style='padding: 8px;'>
+							</td>
+
+						</tr>
+						<tr>
+							<td>
+								<b style='font-family:Verdana;'> Chat ID : </b>
+							</td>
+							<td>
+								<input type='text' name='chat_id' placeholder='chat_id' style='padding: 8px;'>
+							</td>
+
+						</tr>
+						<tr>
+							<td>
+								<b style='font-family:Verdana;'> Username : </b>
+							</td>
+							<td>
+								<input type='text' name='username' placeholder='username' style='padding: 8px;'>
+							</td>
+
+						</tr>
+						<tr>
+							<td>
+								<b style='font-family:Verdana;'> Enter Password: </b>
+							</td>
+							<td>
+								<input type='Password' name='password1' placeholder='password' style='padding: 8px;'>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b style='font-family:Verdana;'> Confirm Password: </b>
+							</td>
+							<td>
+								<input type='Password' name='password2' placeholder='confirm password' style='padding: 8px;'>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type='submit' value='Register' name='register' style='padding: 5px 10px; font-size:14px;' >
+							</td>
+						</tr>
+					</table>
+				</form>
+				<h4> Have an account? <i>Login</i> now!  <a href='<?php echo base_url('index');		 ?>' style='color:orange;'>Login</a></h4> 
+			</div>
+		</body>
+</html>
